@@ -1,0 +1,220 @@
+/* Reset some default margins and paddings */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font and background color */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f9fa; /* Default Bootstrap background color */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #ffffff; /* Navbar background color */
+}
+
+.navbar-brand {
+  font-size: 32px;
+}
+
+.nav-link {
+  color: #000000; /* Navbar link color */
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Navbar link color on hover */
+}
+
+/* Page header styles */
+.page-header {
+  background: linear-gradient(to right, #ffffff, #e2e6ea); /* Gradient background */
+  padding: 100px 0; /* Adjust top and bottom padding as needed */
+  text-align: center;
+  color: #000000;
+}
+
+.page-header p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Templates section styles */
+.templates {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.templates h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.templates p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Features section styles */
+.features {
+  padding: 50px 0;
+}
+
+.features h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.features .card {
+  border: none;
+}
+
+.features .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features .card-text {
+  font-size: 20px;
+}
+
+/* Page section styles */
+.page {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.page .page-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.page .page-title-para {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  margin-top: 30px;
+}
+
+/* Form section styles */
+.Form {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.Form h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.Form .form-label {
+  font-size: 20px;
+}
+
+.Form .form-control {
+  margin-bottom: 20px;
+}
+
+/* Developers section styles */
+.page.dev {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.page.dev h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.page.dev .card {
+  border: none;
+}
+
+.page.dev .card-text {
+  font-size: 28px;
+}
+
+.page.dev .icons {
+  margin-top: 15px;
+}
+
+.page.dev .icons .btn {
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.page.dev .icons .btn i {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Footer styles */
+.page-footer {
+  background-color: #000000; /* Footer background color */
+  color: #ffffff; /* Footer text color */
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Tooltip styles */
+.tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+/* Center contents in container-fluid page */
+.container-fluid.page {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container-fluid.page .row {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Center contents in container Form */
+.container.Form {
+  block-size: 100%;
+  text-align: center;
+}
+
+.container.Form .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center contents in container-fluid page dev */
+.container-fluid.page.dev {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container-fluid.page.dev .row {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
